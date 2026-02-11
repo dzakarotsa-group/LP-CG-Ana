@@ -8,7 +8,7 @@
   <meta name="description" content="Yang nunggu mapan biasanya cuma dapat sisa. Biaya akad mulai 2 juta.">
   <meta property="og:title" content="Biaya Akad Mulai 2 Juta | Jangan Nunggu">
   <meta property="og:description" content="Temanmu sudah akad. Kamu masih mikir?">
-  <meta property="og:image" content="orang.jpeg">
+  <meta property="og:image" content="orang.png">
 
   <style>
     /* ================= GLOBAL ================= */
@@ -19,24 +19,73 @@
       color: #111;
     }
 
-    /* ================= HERO ================= */
-    .hero {
-      background:
-        linear-gradient(
-          to bottom,
-          rgba(255,255,255,0.05) 0%,
-          rgba(255,255,255,0.35) 45%,
-          rgba(255,255,255,0.85) 75%,
-          rgba(255,255,255,1) 100%
-        ),
-        url('orang.jpeg') center/cover no-repeat;
-      padding: 30px 12px 12px;
-      text-align: center;
-      filter: contrast(1.05) brightness(1.05);
+  /* ================= HERO ================= */
+.hero {
+  min-height: 100vh;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.05) 0%,
+      rgba(255,255,255,0.35) 45%,
+      rgba(255,255,255,0.85) 75%,
+      rgba(255,255,255,1) 100%
+    ),
+    url("orang.png") center top / cover no-repeat;
+    /* ⬆️ KUNCI: "center top" = kepala di paling atas */
+
+  padding: 600px 16px 40px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* ================= HERO TEXT ================= */
+.hero-text {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* ================= TEXT ================= */
+.hero h1 {
+  font-size: clamp(26px, 4vw, 42px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.hero h2 {
+  font-size: clamp(18px, 2.6vw, 22px);
+  font-weight: 550;
+  margin-bottom: 26px;
+  color: #333;
+}
+
+/* ================= BUTTON ================= */
+.btn {
+  display: inline-block;
+  background: #222ce6;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+
+/* ================= NOTE ================= */
+.note {
+  font-size: 20px;
+  color: #444;
+}
+
+  
+}
+
     }
 
     h1 {
-      color: #ffcc00;
+      color: #1835f5;
       font-size: 26px;
       margin: 0 0 6px;
       text-shadow: 0 2px 6px rgba(0,0,0,0.35);
@@ -56,10 +105,10 @@
       color: #ffffff;
       text-decoration: none;
       padding: 10px 12px;
-      font-size: 15px;
+      font-size: 20px;
       font-weight: bold;
       display: block;
-      max-width: 150px;
+      max-width: 170px;
       margin: 18px auto;
       text-align: center;
       border-radius: 8px;
@@ -87,7 +136,7 @@
     }
 
     .section h3 {
-      color: #4ade28;
+      color: #2831de;
       font-size: 24px;
       margin: 0 0 6px;
     }
@@ -173,17 +222,20 @@
 
 <!-- ================= HERO ================= -->
 <section class="hero">
-  <h1>Pengen beli rumah tapi biaya mudik jadi kurang?</h1>
-  <h2>Di sini kamu bisa beli rumah, biaya mudik tetap aman</h2>
+  <div class="hero-text">
+    <h1>Biaya Terbatas? Rumah Tetap Bisa Jalan Mulai 2 Juta</h1>
+    <h2>Di sini kamu bisa beli rumah, biaya mudik tetap aman karena biaya akad mulai 2 juta aja</h2>
 
-  <a class="btn" href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana,%20saya%20mau%20tanya%20unitnya!">
-    AMANKAN UNIT SEKARANG
-  </a>
+    <a class="btn" href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20mau%20tanya%20unitnya">
+      AMANKAN UNIT SEKARANG
+    </a>
 
-  <p style="font-size:13px;color:#444;">
-    Biaya akad mulai 2 jutaan aja!
-  </p>
+<p class="note" style="font-size: 20px; font-weight: 600;">
+  Cek Unit & Promo Hari Ini!
+</p>
+  </div>
 </section>
+
 
 <!-- ================= REALITY ================= -->
 <section class="section">
@@ -221,7 +273,7 @@
   <img src="rumah.jpg" class="spec-img" alt="Rumah Castila Garden">
 </section>
 <section class="cta">
-  <a class="btn" href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana,%20saya%20penasaran%20info%20rumahnya%20dong!">
+  <a class="btn" href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20penasaran%20info%20rumahnya%20dong">
     Info rumah
   </a>
 </section>
@@ -250,7 +302,7 @@
 <!-- ================= FOOTER ================= -->
 <section class="footer">
   <h2>Kalau Bukan Sekarang, Kamu Nunggu Apa?</h2>
-  <a class="btn" href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana,%20saya%20siap%20punya%20rumah!">
+  <a class="btn" href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20siap%20punya%20rumah">
     SAYA SIAP PUNYA RUMAH
   </a>
 </section>
