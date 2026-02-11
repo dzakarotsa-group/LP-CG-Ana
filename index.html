@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,83 +20,77 @@
       color: #111;
     }
 
-  /* ================= HERO ================= */
-.hero {
-  min-height: 100vh;
+    /* ================= HERO ================= */
+    .hero {
+      min-height: 100vh;
 
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.05) 0%,
-      rgba(255,255,255,0.35) 45%,
-      rgba(255,255,255,0.85) 75%,
-      rgba(255,255,255,1) 100%
-    ),
-    url("orang.png") center top / cover no-repeat;
-    /* ⬆️ KUNCI: "center top" = kepala di paling atas */
+      background:
+        linear-gradient(to bottom,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 0.35) 45%,
+          rgba(255, 255, 255, 0.85) 75%,
+          rgba(255, 255, 255, 1) 100%),
+        url("orang.png") center top / cover no-repeat;
+      /* ⬆️ KUNCI: "center top" = kepala di paling atas */
 
-  padding: 600px 16px 40px;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-/* ================= HERO TEXT ================= */
-.hero-text {
-  max-width: 760px;
-  margin: 0 auto;
-}
-
-/* ================= TEXT ================= */
-.hero h1 {
-  font-size: clamp(26px, 4vw, 42px);
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 4px;
-}
-
-.hero h2 {
-  font-size: clamp(18px, 2.6vw, 22px);
-  font-weight: 550;
-  margin-bottom: 26px;
-  color: #333;
-}
-
-/* ================= BUTTON ================= */
-.btn {
-  display: inline-block;
-  background: #222ce6;
-  color: #fff;
-  padding: 14px 28px;
-  border-radius: 999px;
-  font-size: 16px;
-  font-weight: 700;
-  text-decoration: none;
-  margin-bottom: 18px;
-}
-
-/* ================= NOTE ================= */
-.note {
-  font-size: 20px;
-  color: #444;
-}
-
-  
-}
-
+      padding: 600px 16px 40px;
+      text-align: center;
+      box-sizing: border-box;
     }
+
+    /* ================= HERO TEXT ================= */
+    .hero-text {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    /* ================= TEXT ================= */
+    .hero h1 {
+      font-size: clamp(26px, 4vw, 42px);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+
+    .hero h2 {
+      font-size: clamp(18px, 2.6vw, 22px);
+      font-weight: 550;
+      margin-bottom: 26px;
+      color: #333;
+    }
+
+    /* ================= BUTTON ================= */
+    .btn {
+      display: inline-block;
+      background: #222ce6;
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 999px;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      margin-bottom: 18px;
+    }
+
+    /* ================= NOTE ================= */
+    .note {
+      font-size: 20px;
+      color: #444;
+    }
+
 
     h1 {
       color: #1835f5;
       font-size: 26px;
       margin: 0 0 6px;
-      text-shadow: 0 2px 6px rgba(0,0,0,0.35);
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
     }
 
     h2 {
       font-size: 19px;
       margin: 0 0 14px;
       color: #111;
-      -webkit-text-stroke: 0.2px rgba(255,255,255,0.8);
+      -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.8);
     }
 
     /* ================= CTA BUTTON ================= */
@@ -172,7 +167,7 @@
       max-width: 420px;
       margin: 6px auto 0;
       border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
     /* ================= TESTIMONI SLIDER ================= */
@@ -194,7 +189,7 @@
       opacity: 0;
       transition: opacity 1s ease-in-out;
       border-radius: 14px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     }
 
     .testimonial-slider img.active {
@@ -220,104 +215,108 @@
 
 <body>
 
-<!-- ================= HERO ================= -->
-<section class="hero">
-  <div class="hero-text">
-    <h1>Biaya Terbatas? Rumah Tetap Bisa Jalan Mulai 2 Juta</h1>
-    <h2>Di sini kamu bisa beli rumah, biaya mudik tetap aman karena biaya akad mulai 2 juta aja</h2>
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Biaya Terbatas? Rumah Tetap Bisa Jalan Mulai 2 Juta</h1>
+      <h2>Di sini kamu bisa beli rumah, biaya mudik tetap aman karena biaya akad mulai 2 juta aja</h2>
 
-    <a class="btn" href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20mau%20tanya%20unitnya">
-      AMANKAN UNIT SEKARANG
+      <a class="btn"
+        href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20mau%20tanya%20unitnya">
+        AMANKAN UNIT SEKARANG
+      </a>
+
+      <p class="note" style="font-size: 20px; font-weight: 600;">
+        Cek Unit & Promo Hari Ini!
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ================= REALITY ================= -->
+  <section class="section">
+    <h3>Jujur Aja</h3>
+
+    <p>
+      Gaji kamu nggak kecil.<br>
+      Tapi <strong>nggak cukup buat ngalahin kenaikan harga rumah</strong>.
+    </p>
+
+    <ul>
+      <li>❌ Nunggu mapan → harga naik</li>
+      <li>❌ Nunggu yakin → unit habis</li>
+      <li>❌ Nunggu sempurna → nyesel</li>
+    </ul>
+
+    <p class="warning">
+      Yang bilang “nanti aja” biasanya cuma dapat cerita.
+    </p>
+  </section>
+
+  <!-- ================= SPESIFIKASI RUMAH ================= -->
+  <section class="section">
+    <h3>Castila Garden.</h3>
+
+    <p>
+      Berlokasi di Mejayan – Caruban.<br>
+      <strong>5 Menit dari alun-alun Caruban</strong>.
+    </p>
+
+    <p class="spec-text">
+      Rumah tipe 33 cicilan 1 jutaan flat sampai lunas
+    </p>
+
+    <img src="rumah.jpg" class="spec-img" alt="Rumah Castila Garden">
+  </section>
+  <section class="cta">
+    <a class="btn"
+      href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20penasaran%20info%20rumahnya%20dong">
+      Info rumah
     </a>
+  </section>
 
-<p class="note" style="font-size: 20px; font-weight: 600;">
-  Cek Unit & Promo Hari Ini!
-</p>
-  </div>
-</section>
+  <!-- ================= TESTIMONI ================= -->
+  <section class="section">
+    <h3>Masih nunda?</h3>
+    <h3>Mereka yang Sudah Ambil Keputusan</h3>
 
+    <div class="testimonial-slider">
+      <img src="testi1.jpg" class="active" alt="Booking unit">
+      <img src="testi2.jpg" alt="Realisasi akad">
+      <img src="testi3.jpg" alt="Pembeli Castila Garden">
+      <img src="testi4.jpg" alt="Pembeli Castila Garden">
+    </div>
 
-<!-- ================= REALITY ================= -->
-<section class="section">
-  <h3>Jujur Aja</h3>
+    <p class="note">
+      Ini sebagian kecil. Masih ada yang belum sempat ditampilkan.
+    </p>
 
-  <p>
-    Gaji kamu nggak kecil.<br>
-    Tapi <strong>nggak cukup buat ngalahin kenaikan harga rumah</strong>.
-  </p>
+    <p class="warning">
+      Mereka sudah ambil unitnya. Kamu masih mikir?
+    </p>
+  </section>
 
-  <ul>
-    <li>❌ Nunggu mapan → harga naik</li>
-    <li>❌ Nunggu yakin → unit habis</li>
-    <li>❌ Nunggu sempurna → nyesel</li>
-  </ul>
+  <!-- ================= FOOTER ================= -->
+  <section class="footer">
+    <h2>Kalau Bukan Sekarang, Kamu Nunggu Apa?</h2>
+    <a class="btn"
+      href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20siap%20punya%20rumah">
+      SAYA SIAP PUNYA RUMAH
+    </a>
+  </section>
 
-  <p class="warning">
-    Yang bilang “nanti aja” biasanya cuma dapat cerita.
-  </p>
-</section>
+  <!-- ================= AUTO SLIDER SCRIPT ================= -->
+  <script>
+    const slides = document.querySelectorAll('.testimonial-slider img');
+    let index = 0;
 
-<!-- ================= SPESIFIKASI RUMAH ================= -->
-<section class="section">
-  <h3>Castila Garden.</h3>
-
-  <p>
-    Berlokasi di Mejayan – Caruban.<br>
-    <strong>5 Menit dari alun-alun Caruban</strong>.
-  </p>
-
-  <p class="spec-text">
-    Rumah tipe 33 cicilan 1 jutaan flat sampai lunas
-  </p>
-
-  <img src="rumah.jpg" class="spec-img" alt="Rumah Castila Garden">
-</section>
-<section class="cta">
-  <a class="btn" href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20penasaran%20info%20rumahnya%20dong">
-    Info rumah
-  </a>
-</section>
-
-<!-- ================= TESTIMONI ================= -->
-<section class="section">
-  <h3>Masih nunda?</h3>
-  <h3>Mereka yang Sudah Ambil Keputusan</h3>
-
-  <div class="testimonial-slider">
-    <img src="testi1.jpg" class="active" alt="Booking unit">
-    <img src="testi2.jpg" alt="Realisasi akad">
-    <img src="testi3.jpg" alt="Pembeli Castila Garden">
-    <img src="testi4.jpg" alt="Pembeli Castila Garden">
-  </div>
-
-  <p class="note">
-    Ini sebagian kecil. Masih ada yang belum sempat ditampilkan.
-  </p>
-
-  <p class="warning">
-    Mereka sudah ambil unitnya. Kamu masih mikir?
-  </p>
-</section>
-
-<!-- ================= FOOTER ================= -->
-<section class="footer">
-  <h2>Kalau Bukan Sekarang, Kamu Nunggu Apa?</h2>
-  <a class="btn" href="https://wa.me/6283191074759?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20siap%20punya%20rumah">
-    SAYA SIAP PUNYA RUMAH
-  </a>
-</section>
-
-<!-- ================= AUTO SLIDER SCRIPT ================= -->
-<script>
-  const slides = document.querySelectorAll('.testimonial-slider img');
-  let index = 0;
-
-  setInterval(() => {
-    slides[index].classList.remove('active');
-    index = (index + 1) % slides.length;
-    slides[index].classList.add('active');
-  }, 4000);
-</script>
+    setInterval(() => {
+      slides[index].classList.remove('active');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('active');
+    }, 4000);
+  </script>
 
 </body>
+
 </html>
