@@ -9,7 +9,7 @@
   <meta name="description" content="Yang nunggu mapan biasanya cuma dapat sisa. Biaya akad mulai 2 juta.">
   <meta property="og:title" content="Biaya Akad Mulai 2 Juta | Jangan Nunggu">
   <meta property="og:description" content="Temanmu sudah akad. Kamu masih mikir?">
-  <meta property="og:image" content="./images/orang.png">
+  <meta property="og:image" content="./images/rumah.jpg">
 
   <style>
     /* ================= GLOBAL ================= */
@@ -30,7 +30,7 @@
           rgba(255, 255, 255, 0.35) 45%,
           rgba(255, 255, 255, 0.85) 75%,
           rgba(255, 255, 255, 1) 100%),
-        url("./images/orang.png") center top / cover no-repeat;
+        url("./images/rumah.jpg") center top / cover no-repeat;
       /* ⬆️ KUNCI: "center top" = kepala di paling atas */
 
       padding: 600px 16px 40px;
@@ -175,23 +175,24 @@
       position: relative;
       max-width: 360px;
       height: 360px;
-      margin: 24px auto;
+      margin: 35px auto;
       overflow: hidden;
       border-radius: 14px;
     }
 
     .testimonial-slider img {
-      position: absolute;
-      inset: 0;
-      width: 60%;
-      height: 100%;
-      object-fit: cover;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-      border-radius: 14px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    }
-
+  position: absolute;
+  top: 0;
+  left: 50%;  /* ← tambahkan ini */
+  transform: translateX(-50%);  /* ← dan ini */
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
     .testimonial-slider img.active {
       opacity: 1;
       z-index: 1;
@@ -222,7 +223,7 @@
       <h2>Di sini kamu bisa beli rumah, biaya mudik tetap aman karena all in 1 juta aja</h2>
 
       <a class="btn"
-        href="https://wa.me/6282297774092?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20mau%20tanya%20unitnya">
+        href="https://wa.me/6282297774092?text=Halo%20Mbak%20Anggi%20[MA]%20{LP},%20saya%20mau%20tanya%20unitnya">
         AMANKAN UNIT SEKARANG
       </a>
 
@@ -270,7 +271,7 @@
   </section>
   <section class="cta">
     <a class="btn"
-      href="https://wa.me/6282297774092?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20penasaran%20info%20rumahnya%20dong">
+      href="https://wa.me/6282297774092?text=Halo%20Mbak%20Anggi%20[MA]%20{LP},%20saya%20penasaran%20info%20rumahnya%20dong">
       Info rumah
     </a>
   </section>
@@ -300,7 +301,7 @@
   <section class="footer">
     <h2>Kalau Bukan Sekarang, Kamu Nunggu Apa?</h2>
     <a class="btn"
-      href="https://wa.me/6282297774092?text=Halo%20Mbak%20Ana%20[MA]%20{LP},%20saya%20siap%20punya%20rumah">
+      href="https://wa.me/6282297774092?text=Halo%20Mbak%20Anggi%20[MA]%20{LP},%20saya%20siap%20punya%20rumah">
       SAYA SIAP PUNYA RUMAH
     </a>
   </section>
